@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run defaultcreditcard.py
+web: gunicorn gettingstarted.wsgi
