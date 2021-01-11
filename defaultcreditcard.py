@@ -16,7 +16,7 @@ def main():
     
     st.markdown("So, Let's evaluate our model with different Evaluation metrices as the metrices provide us how effective our model is.")
     st.sidebar.markdown("Let\'s do it")
-    data = pd.read_csv('C:\\Users\Shiwani\Desktop\Mini project 2 app\cleaned_data.csv')
+    data = pd.read_csv('cleaned_data.csv')
     
     @st.cache(persist=True)
     def split(data):
